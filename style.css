@@ -505,12 +505,20 @@ color: #011D0D;
         width: 100%;
         font-size: 30px;
     }
+    header .top_section .logo 
+    {
+       padding: 20px 0;
+    }
     header .top_section nav .nav_links
     {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 10px 0px;
+    }
+    header .top_section nav .nav_links li 
+    {
+        line-height: 1px;
     }
    .bottom_section 
    {
@@ -524,12 +532,30 @@ color: #011D0D;
    {
     display: flex;
     flex-direction: column;
+    padding: 50px 0;
+   }
+   .bottom_section .leftCol h1
+   {
+    font-size: 40px;
+    line-height: 35px;
+   }
+   .bottom_section .leftCol .motto 
+   {
+    padding: 20px 0;
+    font-size: 25px;
+    line-height: 30px;
+   }
+   .bottom_section .rightCol
+   {
+    width: 100%;
+    margin: auto;
    }
    .bottom_section .rightCol img
    {
     width: 100%;
     margin: auto;
    }
+
    .features
    {
     display: flex;
@@ -545,6 +571,15 @@ color: #011D0D;
     padding: 5px 0;
     margin-top: 20px;
    }
+   .features .feature h1, .features .feature h2
+   {
+    font-size: 35px;
+    line-height: 50px;
+   }
+   .features .feature h1, .features .feature p 
+   {
+   margin: 15px 0;
+   }
    .features .feature .img
    {
     width: 80%;
@@ -554,10 +589,13 @@ color: #011D0D;
    {
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
+    border-radius: 0;
    }
    .CTA .rightCol 
    {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     padding: 20px;
    }
    .CTA .rightCol img
@@ -574,13 +612,32 @@ color: #011D0D;
    }
    .CTA .leftCol h3
    {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 30px;
+    text-align: center;
+    width:100% ;
+    margin: auto;
+    word-spacing: 2px;
    }
-   .CTA .leftCol .Search .search-bar 
+   .CTA .leftCol .Search .search-bar
    {
-    display: flex;
-
+    margin: 10px 0;
+   }
+   .CTA .leftCol .Search .search-bar input
+   {
+    width: 100%;
+    padding: ;
+    align-items: center;
+    margin: 5px 0;
+   }
+   .CTA .leftCol .Search .search-bar button img
+   {
+    width:30px ;
+   }
+   ::placeholder
+   {
+    font-size: 15px;
+    align-items: center;
    }
    .logoFolio 
    {
@@ -594,6 +651,8 @@ color: #011D0D;
    {
     width: 100%;
     padding: 5px;
+    font-size: 20px;
+    line-height: 30px;
    }
    .logoFolio img 
    {
@@ -606,6 +665,7 @@ color: #011D0D;
     flex-direction: column;
     width: 80%;
     margin: auto;
+    padding: 20px 0;
    }
    .ratio .leftCol
    {
@@ -620,13 +680,99 @@ color: #011D0D;
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: 30px 0;
+   }
+   .ratio .rightCol p, .ratio .rightCol p span
+   {
+    font-size: 20px;
+    line-height: 40px;
+    line-height: 30px;
    }
    .footer
    {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin: auto;
+   }
+   .footer .footer-top 
+   {
+    display: flex;
+    flex-direction: column-reverse;
     width: 80%;
     margin: auto;
    }
+   .footer .footer-top .leftCol
+   {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    font-size: 10px;
+   }
+   .footer .footer-top .leftCol h1
+   {
+    font-size: 30px;
+    line-height: 40px;
+   }
+  .footer .footer-top .leftCol p
+  {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+  }
+  .footer .footer-top .leftCol .btn
+  {
+    display: flex;
+    width: 100%;
+  }
+  .footer .footer-top .leftCol .btn .btn-email,.footer .footer-top .leftCol .btn .btn-demo
+  {
+    border: 0;
+    text-align: center;
+    font-size: 15px;
+    margin:10px 0;
+  }
+  .footer .footer-top .rightCol
+  {
+    width: 100%;
+    margin: auto;
+  }
+  .footer .footer-top .rightCol img 
+  {
+    width: 100%;
+    margin: auto;
+  }
+  .footer .section 
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+  .footer .section p 
+  {
+    padding: 5px 0;
+  }
+  .footer .section img 
+  {
+    padding: 5px 0;
+  }
+  .footer .footer-bottom
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .footer-bottom ul 
+  {
+    padding: 30px 0;
+  }
+  .footer .footer-bottom ul li
+  {
+    font-size: 20px;
+  }
 }    
 
